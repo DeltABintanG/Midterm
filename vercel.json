@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+        "api/index.php": { "runtime":"vercel-php@0.7.4" }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "",
+        "APP_KEY": "base64:Ru45PggQ1qn3ePD+xf+6ba7T22yhwgVqZD8mGULeY40=",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "s9hukm.h.filess.io",
+        "DB_PORT": "61032",
+        "DB_DATABASE": "Task_Manager_scalebean",
+        "DB_USERNAME": "Task_Manager_scalebean",
+        "DB_PASSWORD": "2ff97dc9fd353f6003fa45b1d2c45e36a70f784b",
+
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
